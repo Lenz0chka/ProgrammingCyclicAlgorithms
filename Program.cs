@@ -15,7 +15,7 @@
             Console.WriteLine("Введите число до 1000");
             int number = int.Parse(Console.ReadLine());
             if (number <= 1000)
-                for (int i = 0; i < number && i < 1000; i++)
+                for (int i = 0; i < number; i++)
                     Console.WriteLine(i);
             else
                 Console.WriteLine("Число больше 1000.");
